@@ -16,8 +16,8 @@ window.addEventListener("load", ()=> {
     });
 
     function displayMusic(music) {
-        title.innerText=music.getName();
-        title.innerText=music.singer;
+        title.innerText=music.title;
+        singer.innerText=music.singer;
         image.src="img/" + music.img;
         audio.src="mp3/" + music.file;
 

@@ -20,8 +20,8 @@ class MusicPlayer {
             this.index--;
         }
         else {
-            this.index=this.musicList.length;
-            
+            this.index=this.musicList.length-1;
+
         }
 
     }
