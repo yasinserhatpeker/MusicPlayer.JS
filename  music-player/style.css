@@ -11,7 +11,8 @@
 #progress {
     margin-bottom: 20px;
 }
-#progress .times {
+#progress .times ,
+#controls {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -24,4 +25,6 @@
 
 #progress-bar {
     width: 100%;
+    
+    
 }
