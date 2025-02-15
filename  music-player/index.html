@@ -21,8 +21,8 @@
            <img src=" " id="music-image" alt="" class="card-img-top">
         <audio src=" " id="audio"></audio>
         <div id="music-details" class="text-center border-bottom">
-            <p class="title"></p>
-            <p class="singer"></p>
+            <p class="title mt-3 fs-5"></p>
+            <p class="singer fw-bolder fs-4"></p>
         </div>
         <div class="card-body">
              
@@ -48,11 +48,11 @@
          
             </div>
             </div>
-            <div class="card-footer">
+            <div class="card-footer" >
 
-                   <div class="btn btn-primary btn-sm">
+                   <button class="btn btn-primary btn-sm" data-bs-toggle="collapse" data-bs-target="#music-list">
                     <i class="fa-solid fa-bars"></i>
-                   </div>
+                   </button>
 
                 <div class="volume-container">
 
@@ -60,9 +60,12 @@
                     <input type="range" id="volume-bar" max="100", value="100" class="form-range">
 
                 </div>
-                  
-                
-           
+              
+            </div>
+            <div id="music-list" class="collapse">
+                <ul class="list-group list-group-flush">
+               
+                </ul>
             </div>
        
         </div>

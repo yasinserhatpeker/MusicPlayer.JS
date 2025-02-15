@@ -33,7 +33,11 @@ body {
 #progress-bar 
 {
     width: 100%;
+  
 }
-
+#music-list {
+    max-height: 300px;
+    overflow-y: auto;
+}
 
 
