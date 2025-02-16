@@ -40,4 +40,8 @@ body {
     overflow-y: auto;
 }
 
+li.playing {
+    background-color: antiquewhite;
+    cursor: pointer;
 
+}
